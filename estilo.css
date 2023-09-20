@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+form{
+    border: 3px solid black;
+    border-radius: 2%;
+    width: 50%;
+    height: 200px;
+}
+.botones{
+    background-color: #00e490;
+}
+button:hover{
+    background-color: #46a049;
+}
+input{
+    background-color: #ffffbf;
+}
