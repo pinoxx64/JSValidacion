@@ -13,7 +13,7 @@ form{
 .botones{
     background-color: #00e490;
 }
-button:hover{
+.botones:hover{
     background-color: #46a049;
 }
 input{

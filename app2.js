@@ -5,6 +5,7 @@ function guardar() {
     var ape2 = document.getElementById("2ape").value;
     var ndni = document.getElementById("ndni").value;
     var ldni = document.getElementById("ldni").value;
+    var fecha=document.getElementById("fecha").value;
     
     var num = parseInt(ndni);
     var rnum = num % 23;
@@ -13,7 +14,7 @@ function guardar() {
         
     if (listaletras[rnum] == ldni) {
         alert("Datos guardados"); 
-        var info = [nombre, ape1, ape2, ndni, ldni];
+        var info = [nombre, ape1, ape2, ndni, ldni,fecha];
         console.log(info);
     } else {
         alert("DNI incorrecto, verifique si está bien escrito");
